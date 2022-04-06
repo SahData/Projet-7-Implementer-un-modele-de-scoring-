@@ -4,7 +4,6 @@ joblib
 matplotlib
 numpy
 pandas
-Pillow
 pydantic
 requests
 scikit_learn
