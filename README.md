@@ -7,3 +7,13 @@ Un chargé de clientèle doit pouvoir utiliser le modèle via l’application mi
 
 L’idée est donc d’expliciter au mieux le score renvoyé par le modèle. Pour réaliser ce module, la première perspective envisagée était d’utiliser l’importance des features issues des différents modèles utilisés. Puis un LIME qui est une librairie s’appliquant à n’importe quel modèle de machine Learning et permettant de comprendre comment évolue la prédiction d’un modèle et perturbant les variables en entrée du modèle. Ensuite un SHAP, pour une meilleure visualisation. 
 
+Après l’entraînement de modèle d'apprentissage automatique sur le système local, les étapes suivantes sont réalisées. 
+
+•	Création de l’interface à l'aide de Streamlit, pour rendre le modèle accessible ;
+
+•	Envelopper l'inférence avec un framework backend de FastAPI;
+
+•	Utilisation d’un docker pour conteneuriser l’application ;
+
+•	Hébergement de l’API (FastApi) sur le site heroku 
+
